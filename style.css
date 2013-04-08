@@ -1,0 +1,10 @@
+:after {
+	content:attr(data-element) " supports the :after pseudo-element.";
+	color: green;
+	text-decoration: none;
+	display: block;
+}
+
+html {
+	padding: 20px;
+}

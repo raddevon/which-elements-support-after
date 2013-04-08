@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <meta charset="UTF-8">
+  <title>
+  Which elements support :after?
+  </title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header></header>
+<nav></nav>
+<footer></footer>
+<section>
+  
+</section>
+<article></article>
+<aside></aside>
+
+
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<h4></h4>
+<h5></h5>
+<h6></h6>
+
+<p></p> 
+<div></div>
+<blockquote></blockquote>
+<address>
+</address>
+
+<ul>
+  <li></li>
+</ul>
+<menu>
+</menu>
+<dir>
+</dir>
+<ol>
+ </ol>
+
+<dl>
+  <dt>
+  <dd>
+</dl>
+
+<abbr title="Cascading Style Sheets"></abbr>
+<acronym title=""></acronym>
+<b></b>
+<cite></cite>
+<code></code>
+<del></del>
+<dfn></dfn>
+<em></em>
+<i></i>
+<ins></ins>
+<kbd></kbd>
+<q></q>
+<samp></samp>
+<small></small>
+<strong></strong>
+<sub></sub>
+<sup></sup>
+<u></u>
+<var></var>
+
+<a href="../index.html"></a>
+<form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi">
+<input type="hidden" name="hidden field" value="42">
+<button></button>
+<label for=""></label>
+<textarea name="" id="" cols="30" rows="10"></textarea>
+<fieldset>
+<legend></legend>
+</fieldset>
+<select id="f10" name="select1" size="1">
+<option></option>
+</select>
+</form>
+<TABLE summary=
+"Each row names a Nordic country and specifies its total area and land area, in square kilometers">
+<CAPTION></CAPTION>
+<thead></thead>
+<tr>
+  <th></th>
+  <td></td>
+</tr>
+<tfoot></tfoot>
+</TABLE>
+
+</BODY>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+  $( document ).ready(function() {
+      $("*").each( function () {
+        $(this).attr('data-element', $(this).prop('tagName'));
+      });
+  });
+</script>
+</HTML>
